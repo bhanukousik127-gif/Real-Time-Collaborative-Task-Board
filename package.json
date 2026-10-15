@@ -1,0 +1,25 @@
+{
+  "name": "collaborative-task-board",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Full-stack Real-Time Collaborative Task Board with React, Node.js, Express, MongoDB, Socket.io, and JWT",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "node start-dev.js"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "socketio",
+    "jwt",
+    "kanban",
+    "realtime",
+    "collaborative"
+  ],
+  "author": "",
+  "license": "MIT"
+}
